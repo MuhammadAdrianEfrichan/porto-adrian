@@ -17,7 +17,7 @@ body{
             transform: translateY(0px) rotate(0deg);
   }
         50% {
-            transform: translateY(-18px) rotate(3deg);
+            transform: translateY(-20px) rotate(4deg);
   }
 
     --animate-fade-in-scale: fade-in-scale 0.3s ease-out;

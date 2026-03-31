@@ -1,3 +1,4 @@
+import { TypeAnimation } from "react-type-animation";
 import Link from "../../ui/Link/Link";
 import FloatingRings from "../FloatingRings";
 
@@ -22,7 +23,26 @@ const Home = () => {
                     <span className="text-blue-400 text-xs tracking-widest uppercase font-sans lg:text-[16px]">frontend developer</span>
                     </div> 
                     <div className="flex flex-col text-[55px] text-white font-serif leading-none mt-7 font-bold sm:text-[65px] md:text-[75px] lg:text-[80px]">
-                        Muhammad <span className="text-blue-400">Adrian</span> Efrichan.
+                        Muhammad <span className="text-blue-400">Adrian</span> 
+                         <TypeAnimation
+                            sequence={[
+                                'Efrichan.',
+                                1000,
+                                'Efr',
+                                1000,
+                                'Efrichan.',
+                                1000,
+                                '',
+                                1000,
+                                'Efrichan.',
+                                1000,
+                                
+                            ]}
+                            wrapper="span"
+                            speed={10}
+                            style={{ fontSize: '55px',fontFamily: 'serif', display: 'inline-block' }}
+                            repeat={Infinity}
+                            />
                     </div>
                     <div className="mt-8 w-88 sm:w-100 lg:w-120">
                         <p className="text-gray-500 lg:text-[20px]">
