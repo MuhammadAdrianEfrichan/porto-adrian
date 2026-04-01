@@ -1,13 +1,13 @@
 import { TypeAnimation } from "react-type-animation";
 import Link from "../../ui/Link/Link";
-import FloatingRings from "../FloatingRings";
+import About from "../About";
 
 const Home = () => {
     return <div>
         <nav className=" shadow-[0_0_0_0.5px_rgba(255,255,255,0.2)] w-full h-17 flex justify-between items-center pr-8" >
                 <div className="pl-8 text-white font-serif text-[18px] font-bold">M<span className="text-blue-500">.</span>Adrian</div>
                 <div className="flex justify-evenly  w-100 font-sans uppercase text-[14px]">  
-                <Link href="#" className="hidden sm:block text-gray-500  hover:text-blue-400">About</Link>
+                <Link href="#about" className="hidden sm:block text-gray-500  hover:text-blue-400">About</Link>
                 <Link href="#" className="hidden sm:block text-gray-500 hover:text-blue-400">Skils</Link>
                 <Link href="#" className="hidden sm:block text-gray-500 hover:text-blue-400 ">Projects</Link>
                 <Link href="#" className="hidden sm:block text-gray-500 hover:text-blue-400">Contact</Link>
@@ -53,7 +53,7 @@ const Home = () => {
                     </div>
                     <div className="mt-7 flex gap-5 mb-27">
                         <Link href="#" className="bg-blue-500 px-5 py-4 uppercase font-sans rounded-md text-white hover:bg-blue-400">view projects</Link>
-                        <Link href="#" className="px-5 py-4 outline-2 outline-blue-500 rounded-md uppercase font-sans  text-gray-400 hover:bg-blue-400 hover:text-white">about me</Link>
+                        <Link href="#about" className="px-5 py-4 outline-2 outline-blue-500 rounded-md uppercase font-sans  text-gray-400 hover:bg-blue-400 hover:text-white">about me</Link>
                     </div>
                     <div className=" shadow-[0_0_0_0.5px_rgba(255,255,255,0.2)] w-full"></div>
 
@@ -73,10 +73,9 @@ const Home = () => {
                     </div>
                     <div className=" shadow-[0_0_0_0.5px_rgba(255,255,255,0.2)] w-full"></div>
                 </div>
-                <div className="">
-                    <FloatingRings />
-                </div>
             </div>
+            
+            <About id="about" />
 
 
     </div>
