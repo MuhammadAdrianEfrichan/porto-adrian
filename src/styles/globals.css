@@ -9,6 +9,7 @@ body{
 @theme {
     --font-serif: "DM Serif Display", serif;
     --font-sans: "DM Sans", sans-serif;
+    --bg-tool : #0a1628;
 
     --animate-floatRing: floatRing 8s ease-in-out infinite;
     @keyframes floatRing {

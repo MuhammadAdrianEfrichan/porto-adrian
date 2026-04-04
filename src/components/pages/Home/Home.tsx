@@ -1,15 +1,17 @@
 import { TypeAnimation } from "react-type-animation";
 import Link from "../../ui/Link/Link";
 import About from "../About";
+import Skils from "../Skils";
+import Projects from "../Projects";
 
 const Home = () => {
-    return <div>
-        <nav className=" shadow-[0_0_0_0.5px_rgba(255,255,255,0.2)] w-full h-17 flex justify-between items-center pr-8" >
+    return <div className="relative">
+        <nav className=" shadow-[0_0_0_0.5px_rgba(255,255,255,0.2)] w-full h-17 flex justify-between items-center pr-8 md:fixed top-0 " >
                 <div className="pl-8 text-white font-serif text-[18px] font-bold">M<span className="text-blue-500">.</span>Adrian</div>
                 <div className="flex justify-evenly  w-100 font-sans uppercase text-[14px]">  
                 <Link href="#about" className="hidden sm:block text-gray-500  hover:text-blue-400">About</Link>
-                <Link href="#" className="hidden sm:block text-gray-500 hover:text-blue-400">Skils</Link>
-                <Link href="#" className="hidden sm:block text-gray-500 hover:text-blue-400 ">Projects</Link>
+                <Link href="#skills" className="hidden sm:block text-gray-500 hover:text-blue-400">Skils</Link>
+                <Link href="#projects" className="hidden sm:block text-gray-500 hover:text-blue-400 ">Projects</Link>
                 <Link href="#" className="hidden sm:block text-gray-500 hover:text-blue-400">Contact</Link>
                 </div>
                     <Link href="#" className="py-4 px-6 text-blue-400 border border-blue-400 flex items-center text-[12px] font-light h-4 hover:bg-blue-400 hover:text-white rounded-sm font-sans whitespace-nowrap sm:whitespace-normal">
@@ -20,11 +22,11 @@ const Home = () => {
                 <div className="container mx-auto px-6 ">
                     <div className="flex items-center gap-3">
                     <span className="block w-10 h-px bg-blue-400"></span>
-                    <span className="text-blue-400 text-xs tracking-widest uppercase font-sans lg:text-[16px]">frontend developer</span>
+                    <span className="text-blue-400 text-xs tracking-widest uppercase font-sans lg:text-[16px]">fullstack developer</span>
                     </div> 
                     <div className="flex flex-col text-[55px] text-white font-serif leading-none mt-7 font-bold sm:text-[65px] md:text-[75px] lg:text-[80px]">
                         Muhammad <span className="text-blue-400">Adrian</span> 
-                         <TypeAnimation
+                        <TypeAnimation
                             sequence={[
                                 'Efrichan.',
                                 1000,
@@ -76,7 +78,10 @@ const Home = () => {
             </div>
             
             <About id="about" />
-
+            <div className="my-40"></div>
+            <Skils id="skills" />
+            <div className="my-40"></div>
+            <Projects id="projects" />               
 
     </div>
 }

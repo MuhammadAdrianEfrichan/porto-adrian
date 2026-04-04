@@ -7,10 +7,11 @@ import { FaGithub } from "react-icons/fa";
 
 interface PropTypes{
     id? : string;
+    classname? :string;
 }
 
-const About = ({ id }: PropTypes) =>{
-    return <main id={id}>
+const About = ({ id, classname }: PropTypes) =>{
+    return <main id={id} className={classname}>
         <div className="container mx-auto px-6 mt-15">
             <div className="flex items-center gap-3 mt-10 mb-15
         lg:m-0">
