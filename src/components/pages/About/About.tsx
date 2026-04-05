@@ -16,7 +16,7 @@ const About = ({ id, classname }: PropTypes) =>{
             <div className="flex items-center gap-3 mt-10 mb-15
         lg:m-0">
                 <span className="text-yellow-400 text-[16px] sm:text-[22px] lg:text-[27px] xl:text-[28.8px] 2xl:text-[30px] tracking-widest uppercase font-sans "> About Me </span>
-                    <span className="block w-[75%] h-px sm:w-[75%] lg:w-[82%]
+                    <span className="block w-[70%] h-px sm:w-[75%] lg:w-[82%]
                     xl:w-[85%] 2xl:w-[87%]
                     bg-yellow-400"></span>
                     </div> 

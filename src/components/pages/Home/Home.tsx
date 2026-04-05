@@ -19,11 +19,11 @@ const Home = () => {
                 <Link href="#projects" className="hidden sm:block text-gray-500 hover:text-blue-400 ">Projects</Link>
                 <Link href="#contact" className="hidden sm:block text-gray-500 hover:text-blue-400">Contact</Link>
                 </div>
-                    <Link href="#" className="py-4 px-6 text-blue-400 border border-blue-400 flex items-center text-[12px] font-light h-4 hover:bg-blue-400 hover:text-white rounded-sm font-sans whitespace-nowrap sm:whitespace-normal">
+                    <Link href="#contact" className="py-4 px-6 text-blue-400 border border-blue-400 flex items-center text-[12px] font-light h-4 hover:bg-blue-400 hover:text-white rounded-sm font-sans whitespace-nowrap sm:whitespace-normal">
                     HIRE ME</Link>
                     
         </nav>
-        <Link href="#">  <div className="fixed bottom-15 right-8 text-white cursor-pointer text-[35px] z-10 bg-blue-900 rounded-full animate-bounce">
+        <Link href="#">  <div className="fixed bottom-5 lg:bottom-15 right-5 text-white cursor-pointer text-[35px] z-10 bg-blue-900 rounded-full animate-bounce">
             <HiArrowSmUp />
         </div></Link>
       
@@ -95,7 +95,7 @@ const Home = () => {
                 <Skils id="skills" classname="xl:mt-40" />
             </ScroolFadein>
             <ScroolFadein>
-                <Projects id="projects" classname="xl:mt-40"/>
+                <Projects id="projects" classname="mt-20 xl:mt-40"/>
             </ScroolFadein>
             <ScroolFadein>
                 <Contact id="contact" classname="xl:mt-20" />
