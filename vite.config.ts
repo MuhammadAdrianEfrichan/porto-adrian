@@ -8,5 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: process.env.VITE_BASE_PATH || '/porto-adrian',
+  // base: process.env.VITE_BASE_PATH || '/porto-adrian',
+   base: '/porto-adrian/',
 })
