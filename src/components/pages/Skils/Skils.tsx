@@ -44,7 +44,7 @@ const Skils = ({ id, classname }: PropTypes) =>{
                         <span className="text-sky-500">80%</span>
                     </div>
                     <div className="w-full h-3 border">
-                        <div className="w-[70%] h-full bg-linear-to-r from-blue-400 from-10% via-sky-500 via-30% to-emerald-500 to-90%"></div>
+                        <div className="w-[80%] h-full bg-linear-to-r from-blue-400 from-10% via-sky-500 via-30% to-emerald-500 to-90%"></div>
                     </div>
                     <div className="w-full flex justify-between mt-5 px-1">
                         <span className="text-white">Next.js</span>

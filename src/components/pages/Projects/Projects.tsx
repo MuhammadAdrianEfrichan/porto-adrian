@@ -19,7 +19,7 @@ const Projects = ({ id, classname }: PropTypes) => {
                     bg-yellow-400"></span>
             </div>
             <div className="flex  flex-wrap gap-10 lg:grid lg:grid-flow-col lg:grid-rows-2  lg:mt-10">
-                <div className="w-full h-90 border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
+                <div className="w-full h-auto border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
                     <FaCode className="text-blue-400 text-xl mb-4"/>
                     <span className="text-[18px] text-gray-300 font-bold uppercase font-sans">sistem cafe</span>
                     <p className="text-gray-400 mt-2">A comprehensive cafe management system designed to streamline daily operations. The system handles everything from menu management and order processing to transaction recording and sales reporting — making it easier for cafe owners to run their business efficientl</p>
@@ -28,7 +28,7 @@ const Projects = ({ id, classname }: PropTypes) => {
                     <div className="text-gray-400 w-20 border text-center bg-[#0a1628] hover:text-blue-400 hover:border-sky-400">Tailwind</div>
                     </div>
                 </div>
-                <div className="w-full h-90 border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
+                <div className="w-full h-auto border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
                     <FaCode className="text-blue-400 text-xl mb-4"/>
                     <span className="text-[18px] text-gray-300 font-bold uppercase font-sans">Portofolio</span>
                     <p className="text-gray-400 mt-2">A personal portfolio website built to showcase skills, projects, and professional identity as a frontend developer. Designed with clean aesthetics and smooth interactions, it serves as a digital resume and a demonstration of frontend craftsmanship — reflecting both technical ability and design sensibility.</p>
@@ -37,7 +37,7 @@ const Projects = ({ id, classname }: PropTypes) => {
                     <div className="text-gray-400 w-20 border text-center bg-[#0a1628] hover:text-blue-400 hover:border-sky-400">Tailwind</div>
                     </div>
                 </div>
-                <div className="w-full h-90 border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
+                <div className="w-full h-auto border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
                     <FaCode className="text-blue-400 text-xl mb-4"/>
                     <span className="text-[18px] text-gray-300 font-bold uppercase font-sans">Visit Sumbar</span>
                     <p className="text-gray-400 mt-2">A tourism platform dedicated to promoting West Sumatra's destinations, culture, and local attractions. Users can explore tourist spots, view destination details, and discover the rich cultural heritage of Sumatra Barat — from Bukittinggi to Mentawai Islands</p>
@@ -46,7 +46,7 @@ const Projects = ({ id, classname }: PropTypes) => {
                     <div className="text-gray-400 w-20 border text-center bg-[#0a1628] hover:text-blue-400 hover:border-sky-400">Tailwind</div>
                     </div>
                 </div>
-                <div className="w-full h-90 border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
+                <div className="w-full h-auto border border-gray-500 px-6 py-7 bg-slate-800 hover:scale-105 transition-transform  hover:border-sky-400 cursor-default">
                     <FaCode className="text-blue-400 text-xl mb-4"/>
                     <span className="text-[18px] text-gray-300 font-bold uppercase font-sans">Movie Search</span>
                     <p className="text-gray-400 mt-2">A movie search and discovery application that connects to a public movie database API. Users can search for films, browse by genre or popularity, and view detailed information including synopsis, ratings, release year, and cast — all in a clean, intuitive interface.</p>
