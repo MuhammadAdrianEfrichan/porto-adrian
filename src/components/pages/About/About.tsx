@@ -23,8 +23,8 @@ const About = ({ id, classname }: PropTypes) =>{
                 <div className="lg:flex lg:flex-row-reverse lg:items-center gap-6 ">
             <img src={image} alt="About" className="w-75 lg:w-90 aspect-square object-cover rounded-xl m-auto lg:hover:scale-105 transition-transform cursor-pointer"/>
             <div className="w-full lg:w-[60%] lg:mr-10 lg:mt-10">
-            <p className="text-gray-400 text-[17px] leading-relaxed mt-15 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, nobis reprehenderit deserunt adipisci eum repudiandae consequatur quidem nulla iure mollitia explicabo ut cum provident sapiente voluptas debitis sed molestias? Quam optio atque aliquam consectetur officiis sint? Nemo, sint repudiandae, maxime animi explicabo odit, tempora saepe accusamus error culpa corrupti ab.</p>
-            <p className="text-gray-400 text-[17px] leading-relaxed mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id sunt debitis aut libero eius quas asperiores modi accusamus unde sit.</p>
+            <p className="text-gray-400 text-[17px] leading-relaxed mt-15 ">I'm a frontend developer and undergraduate student at Universitas Putra Indonesia YPTK Padang, passionate about crafting clean, user-friendly interfaces. With 2 years of hands-on experience, I turn ideas into functional and visually engaging digital products.</p>
+            <p className="text-gray-400 text-[17px] leading-relaxed mt-5">LCurrently pursuing my degree while actively developing real-world projects — blending academic learning with professional frontend development experience.</p>
             <div className="">
                 <div className="w-60 h-50 mt-5 lg:w-120">
                     <div className="flex flex-col gap-4 p-2 lg:flex-row
@@ -40,6 +40,10 @@ const About = ({ id, classname }: PropTypes) =>{
                         <div className="flex gap-3"><FaGithub className="text-blue-400 text-xl"/>
                         <Link href="https://github.com/MuhammadAdrianEfrichan" className="text-gray-400 hover:text-yellow-400 transition-colors">MuhammadAdrianEfrichan</Link>
                         </div>
+
+                        
+
+
                     
                     </div>
                 </div>

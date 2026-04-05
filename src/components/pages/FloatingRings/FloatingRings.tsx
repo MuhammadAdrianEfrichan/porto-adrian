@@ -1,6 +1,11 @@
-export default function FloatingRings() {
+
+interface Proptypes{
+  classname? :string; 
+}
+
+export default function FloatingRings({ classname }: Proptypes) {
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <div className={`absolute inset-0 overflow-hidden pointer-events-none ${classname}`}>
       <div className="absolute rounded-full border border-blue-400/15
         w-[800px] h-[800px] -right-20 -top-20
         animate-[floatRing_8s_ease-in-out_infinite]" />

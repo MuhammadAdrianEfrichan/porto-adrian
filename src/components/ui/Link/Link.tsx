@@ -1,17 +1,19 @@
+import type React from "react";
 
 
 interface PropsTypes{
     href : string;
-    children : string;
+    children : React.ReactNode;
     className? : string;
+    element? : React.ReactNode;
 
 }
 
 
 const Link = (props : PropsTypes) => {
-    const{href, children, className} = props;
+    const{href, children, className,element} = props;
     return (
-        <a href={href} className={className}>{children}</a>
+        <a href={href} className={className}>{children} {element}</a>
     )
 }
 
