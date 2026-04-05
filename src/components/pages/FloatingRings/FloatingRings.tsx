@@ -7,20 +7,20 @@ export default function FloatingRings({ classname }: Proptypes) {
   return (
     <div className={`absolute inset-0 overflow-hidden pointer-events-none ${classname}`}>
       <div className="absolute rounded-full border border-blue-400/15
-        w-[800px] h-[800px] -right-20 -top-20
-        animate-[floatRing_8s_ease-in-out_infinite]" />
+        w-200 h-200 -right-20 -top-20
+        animate-floatRing" />
 
       <div className="absolute rounded-full border border-blue-400/15
-        w-[600px] h-[600px] right-16 top-16
-        animate-[floatRing_8s_ease-in-out_infinite_-2s]" />
+        w-150 h-150 right-16 top-16
+        animate-floatRing" />
 
       <div className="absolute rounded-full border border-yellow-600/12
-        w-[400px] h-[400px] right-55 top-50
-        animate-[floatRing_8s_ease-in-out_infinite_-4s]" />
+        w-400 h-400 right-55 top-50
+        animate-floatRing" />
 
       <div className="absolute rounded-full border border-blue-400/15
-        w-[200px] h-[200px] right-90 top-80
-        animate-[floatRing_8s_ease-in-out_infinite_-6s]" />
+        w-50 h-50 right-90 top-80
+        animate-floatRing" />
     </div>
   );
 }

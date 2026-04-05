@@ -6,31 +6,27 @@ html {
 body{
     background-color: #0a1628;
 }
-@theme {
+:root {
     --font-serif: "DM Serif Display", serif;
     --font-sans: "DM Sans", sans-serif;
     --bg-tool : #0a1628;
 
     --animate-floatRing: floatRing 8s ease-in-out infinite;
-    @keyframes floatRing {
-        0%, 100% {
-            transform: translateY(0px) rotate(0deg);
-  }
-        50% {
-            transform: translateY(-20px) rotate(4deg);
-  }
-
-  
- 
+    --animate-fadein: fadein 1s ease-out forwards;
 }
-  --animate-fadein: fadein 1s ease-out forwards;
-    @keyframes fadein{
-        0%{
-          opacity: 0;
-        }
-        100%{
-          opacity:1;
-        }
-
+@keyframes floatRing {
+    0%, 100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(4deg);
+    }
+}
+@keyframes fadein{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity:1;
     }
 }
