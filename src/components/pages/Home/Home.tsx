@@ -29,7 +29,7 @@ const Home = () => {
       
         <ScroolFadein>
             <div className="mt-25 flex fadein">
-                <FloatingRings classname="m-20 hidden xl:block"/>
+                <FloatingRings classname="hidden xl:block"/>
                 <div className="container mx-auto px-6 ">
                     <div className="flex items-center gap-3">
                     <span className="block w-10 h-px bg-blue-400"></span>
