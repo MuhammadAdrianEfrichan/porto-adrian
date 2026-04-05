@@ -11,7 +11,7 @@ interface PropTypes{
 }
 
 const About = ({ id, classname }: PropTypes) =>{
-    return <main id={id} className={classname}>
+    return <section id={id} className={classname}>
         <div className="container mx-auto px-6 mt-15">
             <div className="flex items-center gap-3 mt-10 mb-15
         lg:m-0">
@@ -51,7 +51,7 @@ const About = ({ id, classname }: PropTypes) =>{
             </div>
         </div>
         </div>
-    </main>
+    </section>
 }
 
 export default About;
